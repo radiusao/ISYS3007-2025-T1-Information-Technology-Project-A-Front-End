@@ -42,13 +42,34 @@ createRoot(document.getElementById("root")!).render(
       {/*fixing react router issue of not loading the page from the top*/}
       <ScrollToTop>
         <Routes>
-          <Route path="/" element={<VisitorLandingPage />} />
-          <Route path="/explore" element={<ExplorePage />} />
-          <Route path="/tour" element={<TourPage />} />
-          <Route path="/event" element={<EventPage />} />
-          <Route path="/tenant" element={<TenantPage />} />
-          <Route path="/review" element={<ReviewPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/"
+            element={<VisitorLandingPage />}
+          />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/explore"
+            element={<ExplorePage />}
+          />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/tour"
+            element={<TourPage />}
+          />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/event"
+            element={<EventPage />}
+          />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/tenant"
+            element={<TenantPage />}
+          />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/review"
+            element={<ReviewPage />}
+          />
+          <Route
+            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/about"
+            element={<AboutPage />}
+          />
           <Route
             path="/component-show-case"
             element={<ComponentsShowCasePage />}
