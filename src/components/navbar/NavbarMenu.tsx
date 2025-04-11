@@ -40,30 +40,12 @@ function NavbarMenu() {
         <NavbarLogo></NavbarLogo>
         <div className={`mb-3 ${styles.menu_content}`}>
           <ul>
-            <NavbarList
-              pageName="Explore"
-              url="ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/explore"
-            />
-            <NavbarList
-              pageName="Upcoming Events"
-              url="ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/event"
-            />
-            <NavbarList
-              pageName="Tour"
-              url="ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/tour"
-            />
-            <NavbarList
-              pageName="Tenants"
-              url="ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/tenant"
-            />
-            <NavbarList
-              pageName="Review"
-              url="ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/review"
-            />
-            <NavbarList
-              pageName="About Us"
-              url="ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/about"
-            />
+            <NavbarList pageName="Explore" url="explore" />
+            <NavbarList pageName="Upcoming Events" url="event" />
+            <NavbarList pageName="Tour" url="tour" />
+            <NavbarList pageName="Tenants" url="tenant" />
+            <NavbarList pageName="Review" url="review" />
+            <NavbarList pageName="About Us" url="about" />
           </ul>
         </div>
       </div>

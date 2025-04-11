@@ -30,7 +30,7 @@ function ExplorePage() {
         <TourBox
           title="Easter Egg Hunt"
           duration="1 hr"
-          url=""
+          url="/explore/a"
           special
           backgroundImage="https://images.squarespace-cdn.com/content/v1/5a9f42243c3a53481a5c1800/1555384495092-GGYAKB182TZZKA3T1WQY/Easter+Egg+Hunt.jpg?format=1000w"
         >
@@ -42,7 +42,7 @@ function ExplorePage() {
         <TourBox
           title="Flowers Tour"
           duration="30 min"
-          url=""
+          url="/explore/a"
           backgroundImage="https://images.squarespace-cdn.com/content/v1/5a9f42243c3a53481a5c1800/86e51539-f4fe-4df4-bcf9-a3b2401148a9/02_Poppy-and-Fern_Flower-school_Mia-Forrest.jpeg?format=2500w"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
@@ -53,7 +53,7 @@ function ExplorePage() {
         <TourBox
           title="Animal Tour"
           duration="1 hr"
-          url=""
+          url="/explore/a"
           backgroundImage="https://images.squarespace-cdn.com/content/v1/5a9f42243c3a53481a5c1800/4b8fb596-0396-467f-af1a-2139c4464cb3/Screenshot+2024-01-02+at+4.23.45+pm.jpg?format=1000w"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam

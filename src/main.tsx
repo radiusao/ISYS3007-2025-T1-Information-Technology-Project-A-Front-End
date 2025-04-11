@@ -18,6 +18,9 @@ import ReviewPage from "./pages/ReviewPage";
 import AboutPage from "./pages/AboutPage";
 import ComponentsShowCasePage from "./Documentation/ComponentsShowCasePage";
 import EventPage from "./pages/EventPage";
+import TourDetailPage from "./pages/TourDetailPage";
+import EventDetailPage from "./pages/EvenDetailPage";
+import TenantDetailPage from "./pages/TenantDetailPage";
 
 interface ScrollToTopProps {
   children: ReactNode;
@@ -42,34 +45,16 @@ createRoot(document.getElementById("root")!).render(
       {/*fixing react router issue of not loading the page from the top*/}
       <ScrollToTop>
         <Routes>
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/"
-            element={<VisitorLandingPage />}
-          />
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/explore"
-            element={<ExplorePage />}
-          />
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/tour"
-            element={<TourPage />}
-          />
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/event"
-            element={<EventPage />}
-          />
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/tenant"
-            element={<TenantPage />}
-          />
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/review"
-            element={<ReviewPage />}
-          />
-          <Route
-            path="/ISYS3007-2025-T1-Information-Technology-Project-A-Front-End/about"
-            element={<AboutPage />}
-          />
+          <Route path="/" element={<VisitorLandingPage />} />
+          <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/explore/:id" element={<TourDetailPage />} />
+          <Route path="/tour" element={<TourPage />} />
+          <Route path="/event" element={<EventPage />} />
+          <Route path="/event/:id" element={<EventDetailPage />} />
+          <Route path="/tenant" element={<TenantPage />} />
+          <Route path="/tenant/:id" element={<TenantDetailPage />} />
+          <Route path="/review" element={<ReviewPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route
             path="/component-show-case"
             element={<ComponentsShowCasePage />}

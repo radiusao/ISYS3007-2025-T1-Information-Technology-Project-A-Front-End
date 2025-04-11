@@ -1,6 +1,7 @@
 import styles from "../CustomStyling.module.css";
 interface JumbotronProps {
-  title: string;
+  title?: string;
+  titleImg?: string;
   caption?: string;
   backgroundImage?: string;
   textColour?: string;
@@ -10,6 +11,7 @@ interface JumbotronProps {
 
 function Jumbotron({
   title,
+  titleImg,
   caption,
   backgroundImage,
   textColour = "white",
@@ -49,6 +51,12 @@ function Jumbotron({
         }}
         className="text-center"
       >
+        {titleImg ? (
+          <img src={titleImg} className="mx-auto d-block" height="100px" />
+        ) : (
+          ""
+        )}
+
         <h1 className={styles.display_1}>{title}</h1>
         <p className={styles.subheading}>{caption}</p>
       </div>

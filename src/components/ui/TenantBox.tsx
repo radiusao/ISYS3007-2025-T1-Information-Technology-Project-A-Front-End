@@ -72,7 +72,7 @@ function TenantBox({
               </div>
             </div>
           </div>
-          <div className="col-7 pt-3 pb-3">
+          <div className="col-7 py-3">
             <h2 className={`mb-0 ${styles.display_2}`}>{tenantName}</h2>
             <p className={`mt-0 mb-3 ${styles.subheading}`}>{catagory}</p>
             <p className="mb-0">
@@ -81,11 +81,6 @@ function TenantBox({
             <p className="mb-0">
               <i className="bi bi-clock align-middle"></i>{" "}
               {businessHours ? businessHours : "Check with tenant"}
-            </p>
-            <p className="text-end mb-0 mt-3">
-              <i
-                className={`bi bi-arrow-right-square display-3  ${styles.text_primary}`}
-              ></i>
             </p>
           </div>
         </div>

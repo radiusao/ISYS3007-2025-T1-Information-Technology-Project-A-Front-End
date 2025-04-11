@@ -19,6 +19,7 @@ function EventPage() {
           hourEnd="02:00 PM"
           emoji="😀 🧒 🏃"
           img="https://images.squarespace-cdn.com/content/v1/5a9f42243c3a53481a5c1800/1555384495092-GGYAKB182TZZKA3T1WQY/Easter+Egg+Hunt.jpg?format=1000w"
+          url="/event/a"
         />
         <EventBox
           title="Festival of The Farm"
@@ -27,6 +28,7 @@ function EventPage() {
           hourEnd="02:30 PM"
           emoji="🔟 🥳 🐮"
           img="https://images.squarespace-cdn.com/content/v1/5a9f42243c3a53481a5c1800/e40812e1-6227-495d-b9df-38603138ff06/Farm_Fest_EB_Banner_POSTPONED.jpg?format=2500w"
+          url="/event/a"
         />
       </div>
     </>

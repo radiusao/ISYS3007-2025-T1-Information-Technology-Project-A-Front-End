@@ -45,6 +45,7 @@
 }
 .bg_primary{
   background-color: rgb(34, 34, 34) !important;
+  border: none;
   color: rgb(255, 255, 255)!important;
 }
 .bg_primary_outline{
